@@ -3,28 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css"/>
+    <link rel="stylesheet" href="./style.css" />
     <title>Document</title>
 </head>
 
 
 <body>
     <h1 class="header-blog" id="home">Мій блог</h1>
-<h3>Мене звати Влад</h3>
+<h2 class="header-name">Мене звати Влад</h3>
 <main>
 <nav>
-    <ul>
+    <ul class="aboutMe">
         <li><a href="#home">Головна</a></li>
         <li ><a href="#about">Про мене</a></li>
         <li><a href="#contacts">Контакти</a></li>
     </ul>
 </nav>
 <section>
-    <article id="about">
+    <article class="aboutMeStory" id="about">
+    <div class="aboutMeStoryText">
     <h2>Моя історія</h2>
     <p>Я родився</p>
     <p>Я жив</p>
     <p>Я помер</p>
+    </div>
+    
     </article>
     <div>
         <img src="photo1.jpg" alt="beautiful sky" width="500" height="500">
@@ -37,8 +40,7 @@
         <li>Для чого</li>
         <li>Коли</li>
     </ol>
-</section>
-<button id="contacts" type="button">Читати Більше</button>
+ 
 </main>
 <footer>
     <p>© 2026 Влад</p>
